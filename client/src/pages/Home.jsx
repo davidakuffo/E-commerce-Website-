@@ -5,6 +5,7 @@ import Categories from '../components/home/Categories'
 import Footer from '../components/common/Footer'
 import Newsletter from '../components/home/Newsletter'
 
+
 const Home = () => {
   return (
     <div className="min-h-screen">

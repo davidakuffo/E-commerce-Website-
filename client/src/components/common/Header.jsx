@@ -51,7 +51,7 @@ const Header = () => {
                 0
               </span>
             </Link>
-            <Link to="/account" className="text-gray-300 hover:text-white">
+            <Link to="/profile" className="text-gray-300 hover:text-white">
               <FaUser className="h-6 w-6" />
             </Link>
           </div>
