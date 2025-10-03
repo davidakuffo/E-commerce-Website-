@@ -1,5 +1,13 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import Photo2 from '../../assets/photo2.jpg'
+import Photo5 from '../../assets/photo5.jpg'
+import Photo4 from '../../assets/photo4.jpg'
+import Photo6 from '../../assets/photo6.jpg'
+import Photo7 from '../../assets/photo7.jpg'
+import Photo8 from '../../assets/photo8.jpg'
+
+
 
 const products = [
   {
@@ -9,7 +17,48 @@ const products = [
     image: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8',
     category: 'laptops'
   },
-  // Add more products...
+  {
+    id: 2,
+    name: 'iPhone 14 Pro',
+    price: 999.99,
+    image: Photo2,
+    category: 'smartphones'
+  },
+  {
+    id: 3,
+    name: 'Apple Watch Series 8',
+    price: 399.99,
+    image: Photo5,
+    category: 'accessories',
+  },
+  {
+    id: 4,
+    name: 'Gaming Mouse',
+    price: 49.99,
+    image: Photo4,
+    category: 'gaming',
+  },
+  {
+    id: 5,
+    name: 'Bluetooth Headphones',
+    price: 79.99,
+    image: Photo6,
+    category: 'accessories',
+  },
+  {
+    id: 6,
+    name: 'Samsung',
+    price: 1499.99,
+    image: Photo7,
+    category: 'laptops',
+  },
+ {
+  id: 7,
+  name: 'Razer Headphones',
+  price: 129.99,
+  image: Photo8,
+  category: 'accessories'
+ }
 ]
 
 const ProductGrid = ({ category }) => {

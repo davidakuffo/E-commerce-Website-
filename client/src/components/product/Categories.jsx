@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
+import Photo3 from '../../assets/Photo3.jpg'
 
 const categories = [
   {
@@ -23,7 +24,7 @@ const categories = [
   {
     id: 4,
     name: 'Accessories',
-    image: 'https://images.unsplash.com/photo-1616353071496-b976be5ea6ef',
+    image: Photo3,
     count: 32
   }
 ]
